@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área sem repetir */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
+}
+
+.box-maior {
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 85%;
+    max-width: 400px;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: aliceblue;
+    width: calc(100% - 70px); }
+
+ .botao-buscar {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+
+
+
+    
+}
+
+.img-buscar {
+    width: 20px;
+}
+
+.box-media {
+    margin-top: 25px;
+}
+
+.cidade {
+    color: whitesmoke;
+    font-size: 25x;
+    font-weight: 300;
+
+}
+
+.C {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 15px;
+
+}
+
+.box-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.txt-previsao {
+    color: whitesmoke;
+    margin-left: 20px;
+    text-transform: capitalize;
+
+}
+
+.umilde {
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+body {
+    transition: background-image 1s ease-in-out;
+}
